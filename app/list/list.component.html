@@ -1,0 +1,37 @@
+<ActionBar>
+  <Label text="Buildings"></Label>
+</ActionBar>
+
+<GridLayout tkExampleTitle tkToggleNavButton>
+  <RadListView [items]="buildings"  marginRight="-2"  (itemTap)="onItemTap($event)">
+  <ListViewGridLayout tkListViewLayout scrollDirection="Vertical"
+            itemHeight="180" spanCount="1">
+        </ListViewGridLayout>
+  
+    <ng-template tkListItemTemplate let-item="item">
+      
+      <GridLayout backgroundColor="White">
+        <GridLayout>
+            <ios>
+                <Image src="{{ item.image }}" stretch="aspectFill"></Image>
+            </ios>
+            <android>
+                <Image src="{{ item.image }}" stretch="aspectFill"
+                    height="180"></Image>
+                
+            </android>
+            <GridLayout verticalAlignment="bottom">
+                <StackLayout paddingTop="1" paddingBottom="0"
+                    paddingLeft="16" paddingRight="16">
+                    <Label text="{{ item.name }}" class="buildingName overlay"></Label>
+                    <Label text="{{ item.address }}"class="buildingAddress overlay"></Label>
+                </StackLayout>
+            </GridLayout>
+        </GridLayout>
+    </GridLayout>
+
+
+
+    </ng-template>
+  </RadListView>
+</GridLayout>

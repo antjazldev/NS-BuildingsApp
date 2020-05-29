@@ -1,0 +1,31 @@
+.home-panel{
+    vertical-align: center; 
+    font-size: 20;
+    margin: 15;
+}
+.overlay { background-color: rgba(0,0,0,0.8);}
+
+.description-label{
+    margin-bottom: 15;
+}
+
+.t-36 {
+    font-size: 36;
+}
+.fas {
+    font-family: "Font Awesome 5 Free", "fa-solid-900";
+    font-weight: 900;
+}
+.buildingName {
+    color: rgb(255, 255, 255);
+    font-family: 'Nordica Plus', 'nordicaclassicltext';
+    font-weight: bold;
+    font-size: 30;
+}
+
+.buildingAddress {
+    color: rgb(204, 206, 204);
+    font-family: 'Nordica Plus', 'nordicaclassicltext';
+    font-size: 18;
+    text-transform: uppercase;
+}

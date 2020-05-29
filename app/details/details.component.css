@@ -1,0 +1,29 @@
+.title { font-size: 25;
+         color:#000000}
+.bigtitle { font-size: 24 ;color:#750a0a;text-decoration: underline;text-decoration-color: black;}
+
+.bold {
+    font-weight: bold;
+  }
+  .info {color: white;
+      background-color: #2196F3;} /* Blue */
+.warning {color: white;
+          background-color: #00ccff;
+          font-size: 24;
+          text-align: center;
+          vertical-align: middle;}
+
+.border2{
+    
+    border-bottom: double;
+   
+}
+.phone{
+    color: rgb(0, 110, 255);
+    text-decoration: underline;
+    
+}
+.my-bg {
+    background-image: url("~/images/bg.jpg") no-repeat;
+    background-size: cover;
+}

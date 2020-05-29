@@ -1,0 +1,11 @@
+webpackHotUpdate("bundle",{
+
+/***/ "./login/login.component.css":
+/***/ (function(module, exports) {
+
+module.exports = "FlexboxLayout {\r\n  justify-content: center;\r\n  align-items: center;\r\n  background-size: contain;\r\n  background-image: url(\"~/images/build.jpg\");\r\n}\r\nStackLayout {\r\n  width: 300;\r\n  padding: 10 16;\r\n  background-color: #f0f0f0;\r\n}\r\nImage {\r\n  margin-bottom: 20;\r\n  height: 70;\r\n}\r\nButton, TextField {\r\n  margin-bottom: 10;\r\n}\r\n.btn-primary {\r\n  background-color: #CB1D00;\r\n  margin-left: 0;\r\n  margin-right: 0;\r\n}\r\nTextField {\r\n  placeholder-color: #C4AFB4;\r\n  color: black;\r\n}\r\n.dark {\r\n  background-color: #301217;\r\n}\r\n.dark TextField {\r\n  color:  #C4AFB4;\r\n}"
+
+/***/ })
+
+})
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9sb2dpbi9sb2dpbi5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7Ozs7O0FBQUEsaUNBQWlDLDhCQUE4QiwwQkFBMEIsK0JBQStCLG9EQUFvRCxLQUFLLGlCQUFpQixpQkFBaUIscUJBQXFCLGdDQUFnQyxLQUFLLFdBQVcsd0JBQXdCLGlCQUFpQixLQUFLLHVCQUF1Qix3QkFBd0IsS0FBSyxrQkFBa0IsZ0NBQWdDLHFCQUFxQixzQkFBc0IsS0FBSyxlQUFlLGlDQUFpQyxtQkFBbUIsS0FBSyxXQUFXLGdDQUFnQyxLQUFLLHFCQUFxQixzQkFBc0IsS0FBSyxDIiwiZmlsZSI6ImJ1bmRsZS4yNTk1Mjc2ZmY0MGU2YjZlMzAwZS5ob3QtdXBkYXRlLmpzIiwic291cmNlc0NvbnRlbnQiOlsibW9kdWxlLmV4cG9ydHMgPSBcIkZsZXhib3hMYXlvdXQge1xcclxcbiAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XFxyXFxuICBhbGlnbi1pdGVtczogY2VudGVyO1xcclxcbiAgYmFja2dyb3VuZC1zaXplOiBjb250YWluO1xcclxcbiAgYmFja2dyb3VuZC1pbWFnZTogdXJsKFxcXCJ+L2ltYWdlcy9idWlsZC5qcGdcXFwiKTtcXHJcXG59XFxyXFxuU3RhY2tMYXlvdXQge1xcclxcbiAgd2lkdGg6IDMwMDtcXHJcXG4gIHBhZGRpbmc6IDEwIDE2O1xcclxcbiAgYmFja2dyb3VuZC1jb2xvcjogI2YwZjBmMDtcXHJcXG59XFxyXFxuSW1hZ2Uge1xcclxcbiAgbWFyZ2luLWJvdHRvbTogMjA7XFxyXFxuICBoZWlnaHQ6IDcwO1xcclxcbn1cXHJcXG5CdXR0b24sIFRleHRGaWVsZCB7XFxyXFxuICBtYXJnaW4tYm90dG9tOiAxMDtcXHJcXG59XFxyXFxuLmJ0bi1wcmltYXJ5IHtcXHJcXG4gIGJhY2tncm91bmQtY29sb3I6ICNDQjFEMDA7XFxyXFxuICBtYXJnaW4tbGVmdDogMDtcXHJcXG4gIG1hcmdpbi1yaWdodDogMDtcXHJcXG59XFxyXFxuVGV4dEZpZWxkIHtcXHJcXG4gIHBsYWNlaG9sZGVyLWNvbG9yOiAjQzRBRkI0O1xcclxcbiAgY29sb3I6IGJsYWNrO1xcclxcbn1cXHJcXG4uZGFyayB7XFxyXFxuICBiYWNrZ3JvdW5kLWNvbG9yOiAjMzAxMjE3O1xcclxcbn1cXHJcXG4uZGFyayBUZXh0RmllbGQge1xcclxcbiAgY29sb3I6ICAjQzRBRkI0O1xcclxcbn1cIiJdLCJzb3VyY2VSb290IjoiIn0=

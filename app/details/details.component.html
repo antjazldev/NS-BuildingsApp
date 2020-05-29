@@ -1,0 +1,71 @@
+<Page.actionBar>
+<ActionBar title="Building" >
+  <NavigationButton android.systemIcon="ic_menu_back" text="Back" (tap)="routerExtensions.back()"></NavigationButton>
+</ActionBar></Page.actionBar>
+<StackLayout class="my-bg" >
+<StackLayout orientation="horizontal" paddingTop="20" paddingLeft="20" >
+<Image src="{{Details.image}}" width="300" height="250" stretch="aspectFill"></Image>
+<StackLayout paddingTop="20">
+  <!--NAME-->
+    <label horizontalAlignment="left" paddingLeft="20">
+        <FormattedString>
+          <Span text="Name:" foregroundColor="#3C5AFD" class="bigtitle bold" ></Span>
+        </FormattedString>
+    </label>
+<Label text="{{Details.name}}" fontAttributes="Bold"  class="title bold" paddingLeft="20"></Label>
+<!--MAIN CONTACT-->
+<label horizontalAlignment="center" paddingLeft="20">
+        <FormattedString>
+          <Span text="Main Contact:" foregroundColor="#3C5AFD" class="bigtitle bold" paddingLeft="20"></Span>
+        </FormattedString>
+    </label>
+<!--<Label text="                            {{Details.contacts[0].name}}" fontAttributes="Bold"  class="title"></Label>-->
+<label paddingLeft="20" >
+    <FormattedString *ngIf="!(Details.contacts.length === 0)">
+      <Span text="{{Details.contacts[0].name}}" foregroundColor="#3C5AFD" class="title bold"></Span>
+    </FormattedString>
+</label>
+</StackLayout>
+</StackLayout>
+<!--AdDRESS-->
+<label paddingTop="10" paddingLeft="70">
+    <FormattedString>
+      <Span text="Adress:" foregroundColor="#3C5AFD" class="bigtitle bold"></Span>
+    </FormattedString>
+</label>
+<Label text="{{Details.address}}" fontAttributes="Bold"  class="title bold" paddingTop="5" paddingLeft="70"></Label>
+<Label paddingTop="10" paddingLeft="70">
+    <FormattedString>
+     
+      <Span text="Phone:" foregroundColor="#3C5AFD" class="bigtitle bold" ></Span>
+    </FormattedString>
+     
+</Label>
+<!--PHONE-->
+
+<Label (tap)="callNumber()"  text="{{Details.contacts[0].phone}}" fontAttributes="Bold"  class="title phone" name="currentPhone"  paddingTop="5" paddingLeft="70"></Label>
+<Label (tap)="callNumber()" text="{{Details.contacts[0].phone_home}}" fontAttributes="Bold"  class="title phone"  paddingTop="5" paddingLeft="70"></Label>
+<!--EMAIL-->
+<label paddingTop="10" paddingLeft="70">
+    <FormattedString>
+      <Span text="Email:" foregroundColor="#3C5AFD" class="bigtitle bold"></Span>
+    </FormattedString>
+</label>  
+<Label text="{{Details.contacts[0].email}}" fontAttributes="Bold"  class="title bold"  paddingTop="5" paddingLeft="70" ></Label>      
+<Label text="                      " fontAttributes="Bold"  class="title bold" horizontalAlignment="center"></Label>  
+<label class="far my-label border"  paddingLeft="70">
+    <FormattedString>
+      <Span text="Other Contacts:"  class="bigtitle bold" horizontalAlignment="center"></Span>
+    </FormattedString>
+</label>  
+<!--Other Contacts-->
+<StackLayout *ngFor="let contact of Details.contacts | slice:1">
+    <Label (tap)="makeCall(contact.phone)" paddingLeft="70">
+        <FormattedString>
+          <Span [text]="contact.name" foregroundColor="#3C5AFD" class="title bold"></Span>
+          <Span text="       " foregroundColor="#3C5AFD" class="title border2"></Span>
+          <Span [text]="contact.phone" foregroundColor="#3C5AFD" class="title phone" ></Span>
+        </FormattedString>
+    </Label> 
+</StackLayout>
+</StackLayout>

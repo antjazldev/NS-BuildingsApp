@@ -1,0 +1,11 @@
+webpackHotUpdate("bundle",{
+
+/***/ "./details/details.component.css":
+/***/ (function(module, exports) {
+
+module.exports = ".title { font-size: 18 }\r\n.my-label {\r\n    background-color: #bc7474;\r\n    color: whitesmoke;\r\n    font-size: 24;\r\n    padding: 8;\r\n    text-align: center;\r\n    vertical-align: middle;\r\n    width: 90%;\r\n}\r\n.border {\r\n    border-color: darkred;\r\n    border-radius: 10;\r\n    border-width: 2;\r\n}\r\n.bold {\r\n    font-weight: bold;\r\n  }\r\n  .info {color: white;\r\n      background-color: #2196F3;} /* Blue */\r\n      .warning {color: white;\r\n          background-color: #ff9800;\r\n          font-size: 24;\r\n          text-align: center;\r\n          vertical-align: middle;}"
+
+/***/ })
+
+})
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9kZXRhaWxzL2RldGFpbHMuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7OztBQUFBLDBCQUEwQixnQkFBZ0IsZUFBZSxrQ0FBa0MsMEJBQTBCLHNCQUFzQixtQkFBbUIsMkJBQTJCLCtCQUErQixtQkFBbUIsS0FBSyxhQUFhLDhCQUE4QiwwQkFBMEIsd0JBQXdCLEtBQUssV0FBVywwQkFBMEIsT0FBTyxhQUFhLGFBQWEscUNBQXFDLCtCQUErQixhQUFhLHdDQUF3Qyw0QkFBNEIsaUNBQWlDLHNDQUFzQyxDIiwiZmlsZSI6ImJ1bmRsZS45ZTU5OGM1MmRmMTRhYmE4YzEyMi5ob3QtdXBkYXRlLmpzIiwic291cmNlc0NvbnRlbnQiOlsibW9kdWxlLmV4cG9ydHMgPSBcIi50aXRsZSB7IGZvbnQtc2l6ZTogMTggfVxcclxcbi5teS1sYWJlbCB7XFxyXFxuICAgIGJhY2tncm91bmQtY29sb3I6ICNiYzc0NzQ7XFxyXFxuICAgIGNvbG9yOiB3aGl0ZXNtb2tlO1xcclxcbiAgICBmb250LXNpemU6IDI0O1xcclxcbiAgICBwYWRkaW5nOiA4O1xcclxcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XFxyXFxuICAgIHZlcnRpY2FsLWFsaWduOiBtaWRkbGU7XFxyXFxuICAgIHdpZHRoOiA5MCU7XFxyXFxufVxcclxcbi5ib3JkZXIge1xcclxcbiAgICBib3JkZXItY29sb3I6IGRhcmtyZWQ7XFxyXFxuICAgIGJvcmRlci1yYWRpdXM6IDEwO1xcclxcbiAgICBib3JkZXItd2lkdGg6IDI7XFxyXFxufVxcclxcbi5ib2xkIHtcXHJcXG4gICAgZm9udC13ZWlnaHQ6IGJvbGQ7XFxyXFxuICB9XFxyXFxuICAuaW5mbyB7Y29sb3I6IHdoaXRlO1xcclxcbiAgICAgIGJhY2tncm91bmQtY29sb3I6ICMyMTk2RjM7fSAvKiBCbHVlICovXFxyXFxuICAgICAgLndhcm5pbmcge2NvbG9yOiB3aGl0ZTtcXHJcXG4gICAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogI2ZmOTgwMDtcXHJcXG4gICAgICAgICAgZm9udC1zaXplOiAyNDtcXHJcXG4gICAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyO1xcclxcbiAgICAgICAgICB2ZXJ0aWNhbC1hbGlnbjogbWlkZGxlO31cIiJdLCJzb3VyY2VSb290IjoiIn0=
